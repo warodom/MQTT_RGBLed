@@ -81,7 +81,7 @@ void setup()
     Serial.println(""); Serial.println("WiFi connected");
   }
  
-  if (client.connect("192.168.42.1")) {
+  if (client.connect("RGBLed")) {
     client.subscribe("color"); client.subscribe("dimmer");
   }
 }
